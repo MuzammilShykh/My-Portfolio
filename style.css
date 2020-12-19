@@ -1,0 +1,127 @@
+@font-face{
+   
+    font-family: 'Eurostile';
+    src: url("./fonts/eurostile_sv/EurostileBold.ttf") format('truetype')
+    
+}
+
+
+
+
+/* navebar .........*/
+.say-hello{ border-width: 2px; border-radius: 15px; border-color: #7510F7; color: #7510F7; font-weight: 600;}
+.say-hello:hover{background-color: #7510F7; border-color: #7510F7;}
+.Mentorship{color: rgb(41, 40, 40);}
+.Mentorship:hover{color:#7510F7 ;}
+.Mentorship:visited{color:rgb(41, 40, 40) ;}
+.nav-line{margin-top: 8%; margin-left: 20%;}
+/* section 1 .........*/
+.heading{text-align: center;font-family: 'Eurostile'; font-weight: bolder; font-size:38px;}
+
+.para-section1{font-size: 24px; text-align: center;margin-top: 2%;}
+.avatar{display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    }
+#avataar{
+    animation-name: avatar ;
+    animation-duration: 5s;
+    ;
+}
+    
+@keyframes avatar{
+    from{width: 30px;}
+    to{width: 215px;}
+}
+
+/* section 2 .......*/
+
+.section2{background-color: #7510F7; height: 700px; position: relative;}
+.text-section2{text-align: center; color: #fff;}
+#h2-section2{font-family: 'Eurostile';margin-top: 10%;}
+#para-section2{padding-bottom: 10%; margin-top: 3%; font-size: 20px;}
+
+/* section 3 .......*/
+.card-section3{ position: relative;; bottom: 30%;
+     }
+.card-body-section3 {text-align: center;}
+.card-body-section3 li{list-style: none;}
+.card-section3 h3{font-weight: 800; font-family:'Eurostile' ;}
+.card-title{color: #7510F7; font-size: 18px;}
+.card{padding-top: 5%; border-radius: 12px;}
+/* section 4.......*/
+.content-section4{ text-align: center;}
+#h1-section4{font-family: 'Eurostile';font-size: 32px;}
+#para-section4{font-size: 20px;}
+#para-section4 a{text-decoration: none;}
+#para-section4 a:visited{color: #7510F7;}
+.img-section4{border-radius: 12px;margin-top: 3%; display: block;margin-left: auto;
+    margin-right: auto; }
+.img-section4:hover{ color:black;opacity: 80%;
+    
+}
+.figure{border-radius: 12px;margin-top: 3%; display: block;margin-left: auto;
+    margin-right: auto; }
+    .h4-img{text-align: center;}
+#kubernetes-text{text-decoration: none; color:#7510F7 ;}
+
+
+/*section 5*/
+#heading-section5{font-size: 32px; font-family: 'Eurostile'; text-align: center; margin-top: 10%;}
+.img1-section5{margin-top: 15%;}
+.img2-section5{margin-top: 7%; padding-left: 10%;}
+
+/*section 6*/
+
+.start-convo{border-width: 2px; border-radius: 30px; border-color: #7510F7; color: #7510F7; font-weight: 600; padding: 1% 3%; font-size: 18px; display: block; margin-left: auto; margin-right: auto;}
+.start-convo:hover{background-color: #7510F7; border-color: #7510F7;}
+.text-section6{text-align: center;}
+#h2-section6{font-size: 26px; font-weight: 600; font-family:'Eurostile' ; margin-top: 10%;}
+#para-section6{font-size: 20px; ;}
+
+/* section 7 */
+.text-section7{ text-align: center; margin-bottom: 0px; padding-bottom: 0px;}
+#h2-section7{font-family:'Eurostile' ; font-weight: 800; font-size: 32px; margin-top: 10%;}
+#para-section7{ font-size: 20px;}
+/* slide 1 testemonials */
+.img-slide1{width: 100px; height: 100px;}
+.para-slides{font-size: 25px; font-weight: lighter; font-family:'Eurostile' ;}
+
+/* section 8 
+
+*/
+
+.section8{ background-color: #141C3A; height: 170px; border-radius: 15px;position:relative;z-index: 1;top: 90px ;}
+.button-section8{border-width: 2px; border-radius: 30px; border-color: #7510F7; color: #fff; font-weight: 600; padding: 1% 3%; font-size: 18px; 
+    display: block; margin-left: auto; margin-right: auto;margin-top: 15%; font-size: 20px; padding: 2% 6%;}
+.button-section8:hover{background-color: #7510F7; border-color: #7510F7;}
+.text-section8{color: #fff; margin-top: 15%; text-align: center;}
+#h1-section8{font-size: 32px; font-weight: 800; font-family:'Eurostile' ;}
+#para-section8{font-size: 18px; font-weight: 300;}
+
+
+/* footer */
+.footer{background-color: #7510F7;position: relative;}
+.text-footer{text-align: center; color: #D4B4FC;}
+#para1-footer{font-size:26px; font-weight: 300;font-family:'Eurostile' ;}
+.twitter{height: 20px; width: 20px; padding: 1%; border-radius: 30px; border-width: 2px; border-style: solid;}
+.twitter:hover{color: #7510F7; background-color: #fff; border-color: #fff;}
+.mail{height: 20px; width: 20px; padding: 1%; border-radius: 30px; border-width: 2px; border-style: solid;}
+.mail:hover{color: #7510F7; background-color: #fff; border-color: #fff;}
+#para3-footer{font-weight: 400;}
+.logo-footer{display: block;margin-left: auto;margin-right: auto;margin-top: 20%;}
+
+
+
+@media screen and (max-width:768px) {
+    .avatar{width: 300px;}
+    .heading{font-size: 20px;}
+    .para-section1{font-size: 12px;}
+    .card-section3{ position: static;}
+    .section2{height: 500px;}
+    .img1-section5{margin-top: 8%; display: block; margin-left: auto; margin-right: auto;}
+    .img2-section5{margin-top: 7%; padding-left: 10%;display: block; margin-left: auto; margin-right: auto;}
+    #heading-section5{font-size: 28px; font-family: 'Eurostile'; text-align: center; margin-top: 10%;}
+    .section8{ background-color: #141C3A; height:auto; border-radius: 15px;}
+}
