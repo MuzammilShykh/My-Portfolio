@@ -92,7 +92,7 @@
 
 */
 
-.section8{ background-color: #141C3A; height: 170px; border-radius: 15px;position:relative;z-index: 1;top: 80px ;}
+.section8{ background-color: #141C3A; height: 170px; border-radius: 15px;position:relative;z-index: 1;top: 70px ;}
 .button-section8{border-width: 2px; border-radius: 30px; border-color: #7510F7; color: #fff; font-weight: 600; padding: 1% 3%; font-size: 18px; 
     display: block; margin-left: auto; margin-right: auto;margin-top: 15%; font-size: 20px; padding: 2% 6%;}
 .button-section8:hover{background-color: #7510F7; border-color: #7510F7;}
@@ -124,4 +124,22 @@
     .img2-section5{margin-top: 7%; padding-left: 10%;display: block; margin-left: auto; margin-right: auto;}
     #heading-section5{font-size: 28px; font-family: 'Eurostile'; text-align: center; margin-top: 10%;}
     .section8{ background-color: #141C3A; height:auto; border-radius: 15px;}
+}
+@media screen and (max-width:576px) {
+    .avatar{width: 170px;}
+    .logo-footer{display: block;margin-left: auto;margin-right: auto;margin-top: 30%;}
+    #avataar{
+        animation-name: avatar ;
+        animation-duration: 5s;
+        ;
+    
+    }
+        
+    @keyframes avatar{
+        from{width: 30px;}
+        to{width: 170px;}
+    }
+
+    #para-section2{padding-bottom: 10%; margin-top: 3%; font-size: 16px;}
+    
 }
